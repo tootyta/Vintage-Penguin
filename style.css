@@ -1,0 +1,60 @@
+html, body {
+	height:100%;
+}
+body {
+	background-color : #e1e9fa;
+}
+
+.who {
+		padding: 20px 10px;
+}
+
+.who .orb {
+	border-radius:10%;
+	width:100%;
+	border: 4px solid #9a9ae6;
+	background-color:white;
+}
+
+.who .text {
+	float: center;
+	text-align: center;
+	 margin: 25px;
+}
+
+.who h3 {
+	text-align: center;
+	text-transform: uppercase;
+	display : 1;
+	font-size:40px;
+}
+
+.who h4 {
+	text-align: center;
+	text-transform: uppercase;
+	display : 1;
+	font-size:30px;
+}
+
+.who img {
+	width: 80%;
+	align: center;
+}
+
+.who .text .codes {
+	text-align: left;
+	float:none;
+	width: 320px;
+  padding: 50px;
+  border: 5px solid #21223d;
+  margin-left: auto;
+    margin-right: auto;
+  background-color: #32335c;
+}
+
+.bottom {
+	font-family:Calibri;
+	margin-left:auto;
+	text-align: center;
+	font-size:15px;
+}
