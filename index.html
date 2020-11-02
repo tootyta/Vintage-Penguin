@@ -23,7 +23,7 @@
          create accounts as penguins and roam the island to make friends. It was previously owned by Disney.
          In March of 2017, Club Penguin was shut-down. A Club Penguin remake is essentially a re-run of the
          original game, Club Penguin, with the same visual files as the original game yet different 
-         back-end code. Essentially, the creator of one of these would have to host all of the original
+         back-end code. The creator of one of these would have to host all of the original
          visual files from Club Penguin on their own domain and would have to re-write the server code after
          heavy debugging. Then, the creator of this game would publish this content to the world on a 
          Virtual Private Server (VPS) and make it public.
@@ -63,7 +63,7 @@
          This information would be communicated using packets that essentially detail information about the user; in this example,
          a loadPlayer (lp) packet is sent to give information about the user, "test9gdfgd" and his clothes. After getting the user to load in the world,
          the rest of the backbone became easy. The world of Vintage Penguin functioned off of room packets. Essentially, to show another the actions of the main user,
-         the packets being sent by the main user would be repeated to all the penguins in the room. Essentially, each penguin had a socket connection
+         the packets being sent by the main user would be repeated to all the penguins in the room. Then, each penguin had a socket connection
          to the game so they would receive any packets being sent. So, to make the world of Vintage Penguin function, 
          all I had to do was code response methods for any user actions. For example, when a user threw a snowball, I had to 
          simply tell the game to send this action to all users in the room, and the visual files would handle the rest. This pulls together
@@ -91,8 +91,8 @@
       <p style="font-family:calibri">As there were other Club Penguin Remakes out there with different code, my server functioned around a theme
          to attract users. The theme of my server was the years of Club Penguin from 2005-2009. My intended audience was
          veteran Club Penguin players that wanted to satisfy their nostalgia. To do this, I had to re-texture all of the media-files
-         from Club Penguin as well as modify the code to the looks of 2006. To accomplish this, I pulled together many
-         old .swf (Adobe Flash) files and stole assets to create one giant file. Then, I added the handlers that connected with the back-end
+         from Club Penguin as well as modify the code to the looks of 2006. In other words, I pulled together many
+         old .swf (Adobe Flash) files and used old  assets to create one giant file. Then, I added the handlers that connected with the back-end
          so that the user would still login with these re-designs. This same process was utilized to allow the Club Penguin 2006 homepage
          to function now - with bits and pieces of HTML instead. Here is one example. 
       <h4 style="font-family:calibri">Before</h4>
